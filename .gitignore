@@ -1,0 +1,60 @@
+# Ignore configuration files that may contain sensitive information.
+public_html/sites/*/settings*.php
+public_html/robots.txt
+public_html/error_log
+
+# Ignore paths that contain user-generated content.
+public_html/sites/default/files/
+public_html/sites/default/files/advagg_css/
+public_html/sites/default/files/advagg_js/
+public_html/sites/default/files/backup_migrate/
+public_html/sites/default/files/civicrm/
+public_html/sites/default/files/css/
+public_html/sites/default/files/js/
+public_html/sites/default/files/tmp/
+public_html/sites/default/files/xmlsitemap/
+public_html/sites/*/private/
+
+# Composer vendor directory
+/vendor/
+
+# Ignore default contrib locations (in case of manual uploads)
+public_html/sites/all/modules/
+public_html/sites/all/themes/
+
+# Ignore packages
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+# Logs and databases
+*.log
+*.sql
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim
+*.un~
+
+# SASS
+.sass-cache/
+
+# Ignore scaffolded .htaccess and quarantine
+/.htaccess
+/.sucuriquarantine/
+
+# Node/npm (optional if you use JS tooling)
+node_modules/
+package-lock.json
